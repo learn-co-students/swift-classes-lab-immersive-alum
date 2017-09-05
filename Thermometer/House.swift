@@ -8,5 +8,13 @@
 
 import Foundation
 
-
-
+class House{
+    var thermometer:Thermometer
+    init(){
+        self.thermometer=Thermometer(fahrenheit: 75.0)
+    }
+    
+    func grandmaIsOver(){
+        self.thermometer=Thermometer(fahrenheit: 90.0)
+    }
+}
