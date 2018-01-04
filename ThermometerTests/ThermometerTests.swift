@@ -12,7 +12,7 @@ import XCTest
 class ThermometerTests: XCTestCase {
 
     let thermometer = Thermometer(fahrenheit: 70.0)
-    let house = House()
+    let house = House(fahrenheit: 70.0)
     
     override func setUp() {
         super.setUp()
